@@ -36,6 +36,7 @@ body {
   height: 150px;
   /*background-image: var(--header-image);*/
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
