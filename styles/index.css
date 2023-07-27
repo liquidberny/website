@@ -1,0 +1,49 @@
+:root {
+  --header-image: url("/assets/images/emotiguy-bola-amarilla.gif");
+  --body-bg-image: url("/assets/images/water2.webp");
+
+  /* colors */
+  --content: #11b0d8;
+}
+
+@font-face {
+  font-family: "Wayfarer's Toy Box";
+  src: url("/assets/font/wayfarers-toy-box.ttf") format("truetype");
+}
+
+body {
+  font-family: "Wayfarer's Toy Box", sans-serif;
+  margin: 0;
+  background-color: #11b0d8;
+  background-size: 65px;
+  color: #170b0b;
+  background-image: var(--body-bg-image);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#container {
+  max-width: 900px;
+  margin: 0 auto;
+  /* this centers the entire page */
+}
+
+#header {
+  width: 100%;
+  background-color: #c1d7e1;
+  height: 150px;
+  /*background-image: var(--header-image);*/
+  display: flex;
+  align-items: center;
+}
+
+#header img {
+  height: 150px;
+}
+
+.mirror-image {
+    display: inline-block;
+    transform: scaleX(-1); /* This mirrors the image horizontally */
+  }
