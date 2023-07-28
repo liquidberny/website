@@ -1,0 +1,48 @@
+#header {
+  width: 100%;
+  background-color: #c1d7e1;
+  height: 150px;
+  /*background-image: var(--header-image);*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#header img {
+  height: 150px;
+}
+
+.mirror-image {
+  display: inline-block;
+  transform: scaleX(-1); /* This mirrors the image horizontally */
+}
+
+h1,
+h2,
+h3 {
+  color: #444233;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+strong {
+  /* this styles bold text */
+  color: #4d3f66;
+}
+/* Responsive code: */
+@media only screen and (max-width: 800px) {
+    #flex {
+      flex-wrap: wrap;
+    }
+    main img {
+      width: 100%;
+    }
+    aside {
+      width: 100%;
+    }
+    #navbar ul {
+      flex-wrap: wrap;
+    }
+  }
