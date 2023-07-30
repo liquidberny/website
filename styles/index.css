@@ -120,6 +120,12 @@ footer {
   height: 50px;
   border: none;
 }
+
+#footer img {
+  height: 30px;
+  padding: 2px;
+}
+ 
 h1,
 h2,
 h3 {
