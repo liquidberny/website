@@ -3,8 +3,11 @@
     display: flex;
     align-items: center; 
 }
-#career img {
+#career a{
     width: 25%;
+}
+#career img {
+    width: 100%;
 }
 .text{
     width: 75%;
