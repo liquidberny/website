@@ -1,15 +1,27 @@
 #career {
-    width: 90%;
-    display: flex;
-    align-items: center; 
+  width: 90%;
+  display: flex;
+  align-items: center;
 }
-#career a{
-    width: 25%;
+#career a {
+  width: 25%;
 }
 #career img {
-    width: 100%;
+  width: 100%;
 }
-.text{
-    width: 75%;
-    margin: 5px;
+.text {
+  width: 75%;
+  margin: 5px;
+}
+@media only screen and (max-width: 800px) {
+  #career {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  h3{
+    text-align: center;
+  }
+  #career a {
+    width: 35%;
+  }
 }
