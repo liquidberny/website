@@ -154,4 +154,10 @@ strong {
   #navbar ul {
     flex-wrap: wrap;
   }
+  #navbar {
+    height: 60px;
+  }
+  #banner{
+    height: 220px;
+  }
 }
