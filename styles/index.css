@@ -145,7 +145,7 @@ strong {
   #flex {
     flex-wrap: wrap;
   }
-  main img {
+  main > img {
     width: 100%;
   }
   aside {
@@ -159,5 +159,8 @@ strong {
   }
   #banner{
     height: 220px;
+  }
+  .project-image{
+    height: 200px;
   }
 }
